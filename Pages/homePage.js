@@ -8,6 +8,7 @@ export class HomePage {
 
         // Locators
         this.logo = page.locator('img[alt="Website for automation practice"]');
+        //dss
 
         this.productsMenu = page.locator('a[href="/products"]');
     }
